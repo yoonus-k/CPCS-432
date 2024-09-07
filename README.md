@@ -4,3 +4,5 @@
 ## sources
 
 [AMR-KELEG](https://github.com/AMR-KELEG/arabic-word-inflection/blob/master/inflect.py)
+
+[sarf](https://github.com/alsaydi/sarf/tree/master)
