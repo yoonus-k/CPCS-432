@@ -48,7 +48,7 @@ def display_arabic(words):
     return bidi_words
 
 # Function to write results to a text file (without reshaping)
-def write_to_file(words_dict, filename="arabic_advanced_derivations.txt"):
+def write_to_file(words_dict, filename="NLP_Verb_Derivations.txt"):
     with open(filename, 'w', encoding='utf-8') as f:
         for word, forms in words_dict.items():
             f.write(f"Advanced Derivations for {word}:\n")
@@ -68,4 +68,4 @@ for word in words_to_generate:
 # Write the results to a file
 write_to_file(words_forms_dict)
 
-print("Advanced Arabic derivations have been written to 'arabic_advanced_derivations.txt'.")
+print("Advanced Arabic derivations have been written to 'NLP_Verb_Derivations.txt'.")
